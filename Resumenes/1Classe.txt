@@ -1,0 +1,13 @@
+Primera classe
+
+Que es despligue web¿?
+-La aplicacion tiene que ser escalable, tiene que ser vertival y horizontal
+   vertical cuando vaya incrementando necesito mas cosas aumento la capacidad del dispositivo
+   horizontal aumenta aumento servidores, ces mejor para campañas puedo aumentar los servidores pero en una epoca necesito mas capacidad.
+-Metodos de despligue:
+  -Puede tener un servidor en "house" no es lo mas usado actualmente, tengo que controlar el dns el servidor usuario, servidor sshh para trabajar en remoto etc..
+  -Hosting puede gestionarlo el host o contratar solo la infrastructura.
+  -Contenedores
+-Plataformas de servicio.
+-Virtualizacion contenedores.
+-Metologia Scrum
