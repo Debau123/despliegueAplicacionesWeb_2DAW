@@ -11,3 +11,120 @@ Que es despligue web¿?
 -Plataformas de servicio.
 -Virtualizacion contenedores.
 -Metologia Scrum
+
+
+  Segunda classe:
+
+-Vercel: Vercel es una plataforma de hosting y despliegue de aplicaciones web que permite a los 
+desarrolladores desplegar rápidamente aplicaciones frontend, principalmente aquellas creadas con frameworks 
+modernos como Next.js, React, Vue, y Svelte. Está orientada a facilitar el desarrollo serverless y la entrega de 
+contenido con un alto rendimiento, utilizando una red global de CDN (Content Delivery Network).
+  
+  Ventajas de Vercel:
+Despliegue rápido y sencillo con integración Git.
+Compatibilidad con frameworks modernos como Next.js, React, Vue.
+Infraestructura serverless y escalado automático.
+Red global de CDN para mayor rendimiento. CDN centro de datos
+Previsualización de despliegues antes de producción.
+Optimización automática de imágenes y recursos.
+
+  Desventajas de Vercel:
+Limitaciones en funciones backend complejas.
+Costos a medida que crece el proyecto.
+Dependencia de la plataforma y sus restricciones.
+Limitaciones para lógica dinámica avanzada.
+Menos fluido para proyectos no JavaScript.
+
+Heroku
+
+Heroku se puede establecer como una plataforma de infraestructura que ofrece un servicio, también denominado PaaS, 
+en la nube, es decir, ayuda a mantener y a ejecutar las aplicaciones mientras estas se desarrollan. Además de ser gratuita, 
+cuenta con un sistema de “contenedores” virtuales que ayudan en el desarrollo de las aplicaciones, así como también 
+logra establecer una adaptación con diversos lenguajes de programación, tales como Java, Python, Node, Scala, etc.
+
+ Ventajas de Heroku:
+Despliegue sencillo y rápido mediante Git.
+Compatibilidad con múltiples lenguajes (Node.js, Ruby, Python, Java, etc.).
+Escalado automático según demanda.
+Integración fácil con bases de datos y otros servicios.
+Planes gratuitos para proyectos pequeños y pruebas.
+
+ Desventajas de Heroku:
+Costo elevado en comparación con otras plataformas cuando se escala.
+Rendimiento limitado en el plan gratuito (aplicaciones duermen tras inactividad).
+Menor control sobre la infraestructura y configuraciones del servidor.
+Menor flexibilidad para aplicaciones con necesidades avanzadas de backend.
+Limitación en recursos para aplicaciones de alto rendimiento.
+ 
+ Caracteristicas especiales de Heroku:
+Soporte multilenguaje (Node.js, Python, Ruby, Java, etc.).
+Dynos: Contenedores escalables para ejecutar aplicaciones.
+Add-ons: Fácil integración con servicios como bases de datos y monitoreo.
+CI/CD: Integración con GitHub para despliegue continuo.
+Heroku Pipelines: Gestión de entornos de desarrollo, staging y producción.
+Escalabilidad automática según demanda.
+Monitoreo y métricas en tiempo real.
+Heroku Postgres y Redis como servicios gestionados de bases de datos.
+Marketplace de Add-ons para ampliar funcionalidades.
+
+- Render.com:
+
+Render.com es una plataforma de hosting en la nube que permite a desarrolladores 
+y equipos desplegar aplicaciones web, APIs, sitios estáticos y bases de datos de manera
+ rápida y sencilla. Es una alternativa a servicios como Heroku y Vercel, ofreciendo una 
+ infraestructura serverless con capacidad de autoescalado, manejo de bases de datos, y
+  un enfoque simplificado para el despliegue de aplicaciones.
+ 
+  Características Especiales de Render.com (Resumido):
+Despliegue automático desde Git (GitHub, GitLab).
+Soporte para múltiples lenguajes como Node.js, Python, Ruby, Go.
+Infraestructura serverless con manejo automático de servidores.
+Escalado automático según la carga de trabajo.
+Bases de datos gestionadas como PostgreSQL.
+Despliegue de sitios estáticos y backends dinámicos.
+SSL gratuito y seguridad integrada.
+Precios flexibles con plan gratuito y opciones escalables
+
+  Ventajas de Render.com:
+Despliegue automático desde Git facilita el flujo de trabajo.
+Soporte para múltiples lenguajes y frameworks.
+Escalado automático sin intervención manual.
+Infraestructura serverless, sin necesidad de gestionar servidores.
+Precios competitivos con un plan gratuito.
+SSL gratuito y seguridad integrada.
+ 
+  Desventajas de Render.com:
+Menos popular y con menos integraciones que competidores como Heroku o Vercel.
+Interfaz y documentación pueden ser menos maduras que en plataformas más antiguas.
+Soporte limitado para aplicaciones muy complejas o con alta personalización.
+
+
+Fly.io
+
+Fly.io es una plataforma de hosting en la nube que permite desplegar aplicaciones globalmente, 
+acercando los servidores a los usuarios mediante una red distribuida de centros de datos en todo el mundo. 
+Está orientada a aplicaciones que requieren baja latencia y alta disponibilidad, utilizando contenedores 
+ligeros para ejecutar y escalar aplicaciones backend y APIs de forma automática en múltiples regiones.
+
+Características Especiales de Fly.io (Resumido):
+Despliegue global en centros de datos distribuidos.
+Contenedores ligeros para fácil despliegue y escalabilidad.
+Soporte para aplicaciones stateful (con estado persistente).
+Balanceo de carga y ruteo por ubicación de usuarios.
+Escalado automático según demanda.
+Bases de datos distribuidas con replicación global.
+SSL gratuito y seguridad integrada.
+
+Ventajas de Fly.io:
+Despliegue global en múltiples regiones.
+Baja latencia al acercar servidores a los usuarios.
+Escalado automático basado en demanda.
+Soporte para aplicaciones stateful (con estado).
+Red distribuida con balanceo de carga y ruteo por ubicación.
+
+Desventajas de Fly.io:
+Menos popular que otras plataformas más grandes.
+Curva de aprendizaje si no estás familiarizado con contenedores.
+Documentación y soporte menos extensos que competidores como AWS o Heroku.
+
+
